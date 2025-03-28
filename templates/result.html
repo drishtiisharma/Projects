@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Anime List</title>
+</head>
+<body>
+    <h2>Main Anime Series</h2>
+    <ul>
+        {% for anime in result %}
+            <li>{{ anime }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Upload Another File</a>
+</body>
+</html>
