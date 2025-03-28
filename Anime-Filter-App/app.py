@@ -76,4 +76,6 @@ def upload_file():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))  # Port dynamically set karein
+    app.run(host="0.0.0.0", port=port)  # Render ke liye external bind zaroori hai
+
