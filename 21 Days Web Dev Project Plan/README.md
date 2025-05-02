@@ -5,6 +5,7 @@ As each project is successfully deployed, the live links will be added here for 
 
 - Day 1 - Personal Website:
 Create a simple personal webpage with your bio and contact information.
+[Live Preview](https://personal-website-7dw5.onrender.com)
 
 - Day 2 - Recipe Book:
 Build a webpage that displays your favorite recipes with images.
