@@ -9,6 +9,7 @@ Create a simple personal webpage with your bio and contact information.
 
 - Day 2 - Recipe Book:
 Build a webpage that displays your favorite recipes with images.
+[Live Preview](https://recipe-book-6bhs.onrender.com)
 
 - Day 3 - Portfolio Gallery:
 Create an image gallery for showcasing your favorite photos or artwork.
