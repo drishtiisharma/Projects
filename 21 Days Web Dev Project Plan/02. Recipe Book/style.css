@@ -1,0 +1,110 @@
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a88968;
+    padding: 0;
+    margin: 0;
+}
+body{
+    flex: 1;
+}
+
+.main-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-banner{
+    font-family:Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, #dba78b, #5a321d);
+    padding:20px 0;
+    color: rgba(54, 38, 21, 0.997);
+    text-align:center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    margin-bottom: 50px;
+}
+
+.top-banner h1{
+    margin: 0;
+    font-size: 2em;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+.recipe-card:hover{
+    box-shadow: 0 0 25px #000000;
+    transition: 0.7s;
+}
+.recipe-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe-card{
+    position: relative;
+    width: 250px;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 8px rgba(189, 155, 122, 0.1);
+}
+
+.recipe-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.recipe-card:hover{
+    transform:scale(1.05);
+}
+.recipe-card:hover .banner{
+    background: rgba(0,0,0,0.8);
+}
+.bottom-banner{
+    font-family:Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, #dba78b, #5a321d);
+    padding:0px 0;
+    margin-top: 0;
+    color: rgba(54, 38, 21, 0.997);
+    text-align:center;
+    font-size:14px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.bottom-banner a{
+    margin-top: 60px;
+    color: #0033cc;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.bottom-banner a:hover{
+    text-decoration: underline;
+}
