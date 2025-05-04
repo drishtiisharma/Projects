@@ -13,6 +13,7 @@ Build a webpage that displays your favorite recipes with images.
 
 - Day 3 - Portfolio Gallery:
 Create an image gallery for showcasing your favorite photos or artwork.
+[Live Preview](https://portfolio-gallery-8bwm.onrender.com/)
 
 - Day 4 - Blog Page:
 Design a blog-style webpage for sharing your thoughts or articles.
