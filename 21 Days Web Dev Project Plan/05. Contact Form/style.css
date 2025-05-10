@@ -75,7 +75,7 @@
     border-radius: 6px;
     font-size: 14px;
   }
-  
+  /**
   .contact-right form button {
     width: 100%;
     padding: 12px;
@@ -92,4 +92,87 @@
   .contact-right form button:hover {
     background-color:#0979ea;
   }
-  
+  **/
+
+  button{
+    width: 100%;
+    --glow-color: #028bfc92;
+    --glow-spread-color: #222426b5;
+    --btn-color: #0e80d7;
+    border: 0.25em;
+    padding: 1em 3em;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.5em var(--flow-color),0 0 2em 0.5em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--flow-color);
+    position: relative;
+    transition: all 0.3s;
+  }
+
+  button::after{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(1em);
+    opacity: 0.4;
+    transform: perspective(1.5em)rotateX(35deg) scale(1,0.6);
+  }
+
+  button:hover{
+    color: white;
+    /**background-color: var(--glow-color);**/
+    box-shadow: 0 0 0.2em 0.1em var(--glow-color),
+    0 0 2em 1em var(--glow-spread-color), inset 0 0 0.2em 0.12em var(--glow-color);
+  }
+
+  button:active{
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color),inset 0 0 0.5em 0.25em var(--glow-color);
+  }
+
+  /* Default: For desktop (width > 768px) */
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Mobile layout: stack vertically */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-left {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .contact-right {
+    border-radius: 0 0 10px 10px;
+  }
+
+  body,
+  .hover-area {
+    height: auto;
+    padding: 20px 0;
+  }
+}
