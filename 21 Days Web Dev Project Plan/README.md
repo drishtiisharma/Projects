@@ -18,8 +18,10 @@ Create an image gallery for showcasing your favorite photos or artwork.
 - Day 4 - Blog Page:
 Design a blog-style webpage for sharing your thoughts or articles.
 [Live Preview](https://blog-page-oat7.onrender.com/)
+
 - Day 5 - Contact Form:
 Add a contact form to your personal website using HTML forms.
+[Live Preview](https://contact-form-309i.onrender.com)
 
 - Day 6 - CSS Styling:
 Apply CSS styling to your projects to improve their visual appeal.
