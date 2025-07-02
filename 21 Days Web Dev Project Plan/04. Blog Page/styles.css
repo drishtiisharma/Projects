@@ -8,8 +8,8 @@ html, body {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #b1a0a0;
-    color: #333;
+    background: #918686;
+    color: #000000;
 }
   
 header {
@@ -17,9 +17,9 @@ header {
     margin-bottom: 20px;
     background-color: #78a1cf;
     color: white;
-    padding: 30px 10px;
+    padding: 20px 10px;
     text-align: center;
-    height:100px; 
+    height:100px;
 
 }
 
@@ -39,9 +39,8 @@ main.blog-container {
 }
   
 .date {
-    color: gray;
+    color: rgb(255, 255, 255);
     font-style: italic;
-    margin: 0.5rem 0;
 }
 
 .poster{
@@ -54,7 +53,7 @@ main.blog-container {
 
 
 .blog-post {
-    background: rgb(183, 169, 197);
+    background: rgb(166, 147, 186);
     border-radius: 8px;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -73,9 +72,14 @@ main.blog-container {
     cursor: pointer;
     list-style: none;
 }
+
+.blog-post[open]{
+    background-color: rgb(60, 54, 54);
+    color: white;
+}
   
 .blog-post[open] summary {
-    color: #4a90e2;
+    color: #ffffff;
 }
   
 .blog-post img {
