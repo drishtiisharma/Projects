@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,10 +17,10 @@ Organic Grocery Store
         <div class="row">
           <div class="col-lg-6 pt-5 mt-5">
             <h2 class="display-1 ls-1"><span class="fw-bold text-primary">Organic</span> Foods at your <span class="fw-bold">Doorsteps</span></h2>
-            <p class="fs-4">Dignissim massa diam elementum.</p>
+            <p class="fs-4">Nature’s Goodness, Now at Your Doorstep!</p>
             <div class="d-flex gap-3">
               <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Start Shopping</a>
-              <a href="#" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</a>
+              <a href="login.jsp" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</a>
             </div>
             <div class="row my-5">
               <div class="col">
@@ -53,7 +55,7 @@ Organic Grocery Store
                 <div class="col-md-9">
                   <div class="card-body p-0">
                     <h5 class="text-light">Fresh from farm</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    <p class="card-text">Fresh from the farm, handpicked for your table — just the way nature meant it.</p>
                   </div>
                 </div>
               </div>
@@ -68,7 +70,7 @@ Organic Grocery Store
                 <div class="col-md-9">
                   <div class="card-body p-0">
                     <h5 class="text-light">100% Organic</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    <p class="card-text">100% organic produce — grown without chemicals, packed with pure goodness.</p>
                   </div>
                 </div>
               </div>
@@ -83,7 +85,7 @@ Organic Grocery Store
                 <div class="col-md-9">
                   <div class="card-body p-0">
                     <h5 class="text-light">Free delivery</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    <p class="card-text">Enjoy doorstep delivery at no extra cost — fresh, fast, and absolutely free.</p>
                   </div>
                 </div>
               </div>
@@ -105,8 +107,8 @@ Organic Grocery Store
               <div class="d-flex align-items-center">
                 <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
-                  <button class="swiper-prev category-carousel-prev btn btn-yellow">❮</button>
-                  <button class="swiper-next category-carousel-next btn btn-yellow">❯</button>
+                  <button class="swiper-prev category-carousel-prev btn btn-yellow">â®</button>
+                  <button class="swiper-next category-carousel-next btn btn-yellow">â¯</button>
                 </div>
               </div>
             </div>
@@ -615,8 +617,8 @@ Organic Grocery Store
               <div class="d-flex align-items-center">
                 <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
-                  <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
-                  <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
+                  <button class="swiper-prev products-carousel-prev btn btn-primary">â®</button>
+                  <button class="swiper-next products-carousel-next btn btn-primary">â¯</button>
                 </div>  
               </div>
             </div>
@@ -986,8 +988,8 @@ Organic Grocery Store
               <div class="d-flex align-items-center">
                 <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
-                  <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
-                  <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
+                  <button class="swiper-prev products-carousel-prev btn btn-primary">â®</button>
+                  <button class="swiper-next products-carousel-next btn btn-primary">â¯</button>
                 </div>
               </div>
             </div>
@@ -1319,8 +1321,8 @@ Organic Grocery Store
               <div class="d-flex align-items-center">
                 <a href="#" class="btn btn-primary me-2">View All</a>
                 <div class="swiper-buttons">
-                  <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
-                  <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
+                  <button class="swiper-prev products-carousel-prev btn btn-primary">â®</button>
+                  <button class="swiper-next products-carousel-next btn btn-primary">â¯</button>
                 </div>  
               </div>
             </div>
@@ -1669,7 +1671,7 @@ Organic Grocery Store
       <div class="container-lg">
         <h2 class="my-4">People are also looking for</h2>
         <a href="#" class="btn btn-warning me-2 mb-2">Blue diamon almonds</a>
-        <a href="#" class="btn btn-warning me-2 mb-2">Angie’s Boomchickapop Corn</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Angieâs Boomchickapop Corn</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Salty kettle Corn</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Chobani Greek Yogurt</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Sweet Vanilla Yogurt</a>
@@ -1678,7 +1680,7 @@ Organic Grocery Store
         <a href="#" class="btn btn-warning me-2 mb-2">Chao Cheese Creamy</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Chicken meatballs</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Blue diamon almonds</a>
-        <a href="#" class="btn btn-warning me-2 mb-2">Angie’s Boomchickapop Corn</a>
+        <a href="#" class="btn btn-warning me-2 mb-2">Angieâs Boomchickapop Corn</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Salty kettle Corn</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Chobani Greek Yogurt</a>
         <a href="#" class="btn btn-warning me-2 mb-2">Sweet Vanilla Yogurt</a>
@@ -1699,7 +1701,7 @@ Organic Grocery Store
               </div>
               <div class="card-body p-0">
                 <h5>Free delivery</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                <p class="card-text">Freshness delivered to your doorstep — always free, no hidden charges.</p>
               </div>
             </div>
           </div>
@@ -1710,7 +1712,7 @@ Organic Grocery Store
               </div>
               <div class="card-body p-0">
                 <h5>100% secure payment</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                <p class="card-text">Shop with confidence — your payments are encrypted and fully secure.</p>
               </div>
             </div>
           </div>
@@ -1721,7 +1723,7 @@ Organic Grocery Store
               </div>
               <div class="card-body p-0">
                 <h5>Quality guarantee</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                <p class="card-text">Only the best makes the cut — we guarantee premium quality, every time.</p>
               </div>
             </div>
           </div>
@@ -1731,8 +1733,8 @@ Organic Grocery Store
                 <svg width="32" height="32"><use xlink:href="#savings"></use></svg>
               </div>
               <div class="card-body p-0">
-                <h5>guaranteed savings</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                <h5>Guaranteed Savings</h5>
+                <p class="card-text">Great prices, always — save more on every order, guaranteed.</p>
               </div>
             </div>
           </div>
@@ -1743,7 +1745,7 @@ Organic Grocery Store
               </div>
               <div class="card-body p-0">
                 <h5>Daily offers</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                <p class="card-text">New deals every day — fresh picks, fresher discounts!</p>
               </div>
             </div>
           </div>

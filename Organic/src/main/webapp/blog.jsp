@@ -51,7 +51,6 @@ Organic Grocery Store
               <div class="card-body">
                 <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
                   <div class="meta-date"><svg width="16" height="16"><use xlink:href="#calendar"></use></svg>22 Aug 2021</div>
-                  <div class="meta-categories"><svg width="16" height="16"><use xlink:href="#category"></use></svg>tips & tricks</div>
                 </div>
                 <div class="post-header">
                   <h3 class="post-title">
@@ -72,7 +71,7 @@ Organic Grocery Store
               <div class="card-body">
                 <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
                   <div class="meta-date"><svg width="16" height="16"><use xlink:href="#calendar"></use></svg>25 Aug 2021</div>
-                  <div class="meta-categories"><svg width="16" height="16"><use xlink:href="#category"></use></svg>trending</div>
+             
                 </div>
                 <div class="post-header">
                   <h3 class="post-title">
@@ -93,7 +92,7 @@ Organic Grocery Store
               <div class="card-body">
                 <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
                   <div class="meta-date"><svg width="16" height="16"><use xlink:href="#calendar"></use></svg>28 Aug 2021</div>
-                  <div class="meta-categories"><svg width="16" height="16"><use xlink:href="#category"></use></svg>inspiration</div>
+                 
                 </div>
                 <div class="post-header">
                   <h3 class="post-title">
