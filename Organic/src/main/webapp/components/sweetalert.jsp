@@ -9,7 +9,7 @@
     />
     <link
       rel="icon"
-      href="../assets/img/kaiadmin/favicon.ico"
+      href="images/leaf2.png"
       type="image/x-icon"
     />
 
@@ -328,7 +328,7 @@
             <div class="logo-header" data-background-color="dark">
               <a href="admin-index.jsp" class="logo">
                 <img
-                  src="images/leaf2.png"
+                  src="images/logo.svg"
                   alt="navbar brand"
                   class="navbar-brand"
                   height="20"

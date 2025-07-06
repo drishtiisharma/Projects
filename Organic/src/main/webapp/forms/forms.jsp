@@ -48,9 +48,9 @@
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
-            <a href="../index.html" class="logo">
+            <a href="admin-index.jsp" class="logo">
               <img
-                src="../assets/img/kaiadmin/logo_light.svg"
+                src="images/leaf2.png"
                 alt="navbar brand"
                 class="navbar-brand"
                 height="20"
@@ -73,27 +73,7 @@
         <div class="sidebar-wrapper scrollbar scrollbar-inner">
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
-              <li class="nav-item">
-                <a
-                  data-bs-toggle="collapse"
-                  href="#dashboard"
-                  class="collapsed"
-                  aria-expanded="false"
-                >
-                  <i class="fas fa-home"></i>
-                  <p>Dashboard</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="dashboard">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="../../demo1/index.html">
-                        <span class="sub-item">Dashboard 1</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
+        
               <li class="nav-section">
                 <span class="sidebar-mini-icon">
                   <i class="fa fa-ellipsis-h"></i>
@@ -109,47 +89,47 @@
                 <div class="collapse" id="base">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../components/avatars.html">
+                      <a href="../components/avatars.jsp">
                         <span class="sub-item">Avatars</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/buttons.html">
+                      <a href="../components/buttons.jsp">
                         <span class="sub-item">Buttons</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/gridsystem.html">
+                      <a href="../components/gridsystem.jsp">
                         <span class="sub-item">Grid System</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/panels.html">
+                      <a href="../components/panels.jsp">
                         <span class="sub-item">Panels</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/notifications.html">
+                      <a href="../components/notifications.jsp">
                         <span class="sub-item">Notifications</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/sweetalert.html">
+                      <a href="../components/sweetalert.jsp">
                         <span class="sub-item">Sweet Alert</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/font-awesome-icons.html">
+                      <a href="../components/font-awesome-icons.jsp">
                         <span class="sub-item">Font Awesome Icons</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/simple-line-icons.html">
+                      <a href="../components/simple-line-icons.jsp">
                         <span class="sub-item">Simple Line Icons</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../components/typography.html">
+                      <a href="../components/typography.jsp">
                         <span class="sub-item">Typography</span>
                       </a>
                     </li>
@@ -165,12 +145,12 @@
                 <div class="collapse" id="sidebarLayouts">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../sidebar-style-2.html">
+                      <a href="../sidebar-style-2.jsp">
                         <span class="sub-item">Sidebar Style 2</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../icon-menu.html">
+                      <a href="../icon-menu.jsp">
                         <span class="sub-item">Icon Menu</span>
                       </a>
                     </li>
@@ -186,7 +166,7 @@
                 <div class="collapse show" id="forms">
                   <ul class="nav nav-collapse">
                     <li class="active">
-                      <a href="../forms/forms.html">
+                      <a href="../forms/forms.jsp">
                         <span class="sub-item">Basic Form</span>
                       </a>
                     </li>
@@ -202,12 +182,12 @@
                 <div class="collapse" id="tables">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../tables/tables.html">
+                      <a href="../tables/tables.jsp">
                         <span class="sub-item">Basic Table</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../tables/datatables.html">
+                      <a href="../tables/datatables.jsp">
                         <span class="sub-item">Datatables</span>
                       </a>
                     </li>
@@ -223,12 +203,12 @@
                 <div class="collapse" id="maps">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../maps/googlemaps.html">
+                      <a href="../maps/googlemaps.jsp">
                         <span class="sub-item">Google Maps</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../maps/jsvectormap.html">
+                      <a href="../maps/jsvectormap.jsp">
                         <span class="sub-item">Jsvectormap</span>
                       </a>
                     </li>
@@ -244,12 +224,12 @@
                 <div class="collapse" id="charts">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../charts/charts.html">
+                      <a href="../charts/charts.jsp">
                         <span class="sub-item">Chart Js</span>
                       </a>
                     </li>
                     <li>
-                      <a href="../charts/sparkline.html">
+                      <a href="../charts/sparkline.jsp">
                         <span class="sub-item">Sparkline</span>
                       </a>
                     </li>
@@ -257,19 +237,13 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a href="../widgets.html">
+                <a href="../widgets.jsp">
                   <i class="fas fa-desktop"></i>
                   <p>Widgets</p>
                   <span class="badge badge-success">4</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="../../../documentation/index.html">
-                  <i class="fas fa-file"></i>
-                  <p>Documentation</p>
-                  <span class="badge badge-secondary">1</span>
-                </a>
-              </li>
+            
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#submenu">
                   <i class="fas fa-bars"></i>
@@ -332,9 +306,9 @@
           <div class="main-header-logo">
             <!-- Logo Header -->
             <div class="logo-header" data-background-color="dark">
-              <a href="../index.html" class="logo">
+              <a href="admin-index.jsp" class="logo">
                 <img
-                  src="../assets/img/kaiadmin/logo_light.svg"
+                  src="images/leaf2.png"
                   alt="navbar brand"
                   class="navbar-brand"
                 />

@@ -6,4 +6,6 @@ public interface Dao {
 
 	UserInfo getUserbyLoginCredential(String credential, String password);
 	boolean registerCustomer(UserInfo user);
+	
+	UserInfo getUserById(int);
 }
