@@ -1,2 +1,1 @@
-Live Server Link:
-https://anime-filter-miniapp.onrender.com
+[Live Server Link](https://zingy-frangipane-6302ef.netlify.app/)
